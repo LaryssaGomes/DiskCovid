@@ -1,0 +1,16 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 90px;
+  background: #FFF;
+  box-shadow: 2px 0 4px rgb(148, 147, 147);
+}
+
+.topbar .classification button {
+  margin-left: 4px;
+  border: none;
+  height: 45px;
+  background: rgb(182, 241, 234);
+}

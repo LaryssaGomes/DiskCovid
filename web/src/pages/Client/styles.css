@@ -1,0 +1,100 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app h1 {
+  margin: 50px 0 25px;
+  color: rgb(69, 175, 59);
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.form {
+  padding: 40px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .data {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form strong {
+  margin: 5px 0;
+}
+
+.data input {
+  min-width: 300px;
+  border: 1px solid rgb(114, 114, 114);
+  background: #F4F6F5;
+  border-radius: 5px;
+  height: 40px;
+  margin: 2px 0 8px 0;
+  padding-left: 8px;
+}
+
+.data input::placeholder {
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+}
+
+.data label {
+  color: rgb(37, 37, 37);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.symptoms {
+  margin-top: 10px;
+}
+
+.symptoms .checkbox {
+  margin-top: 8px;
+}
+
+.symptoms input {
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.btn-submit {
+  margin: 10px 0 0;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  background: rgb(64, 190, 50);
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  height: 45px;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 800px) {
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .symptoms {
+    margin-left: 50px;
+  }
+}
